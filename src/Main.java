@@ -8,6 +8,10 @@ public class Main {
         Book two = new Book("Донские рассказы ", bookTwo, 1926);
         System.out.println("Название книги - " + one.getBookName() + "Автор - " + bookOne.getFirstName() + "  " + bookOne.getLastName() + " Год публикации - " + one.getBookAge());
         System.out.println("Название книги - " + two.getBookName() + "Автор - " + bookTwo.getFirstName() + "  " + bookTwo.getLastName() + " Год публикации - " + two.getBookAge());
+        System.out.println(bookOne);
+        System.out.println(bookTwo);
+        System.out.println(one);
+        System.out.println(two);
 
 
     }
